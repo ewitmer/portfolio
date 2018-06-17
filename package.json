@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ewitmer.github.io/personal-portfolio/",
+  "homepage": "https://ewitmer.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^15.5.3",
