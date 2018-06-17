@@ -1,0 +1,77 @@
+.Projects-container {
+	display: flex;
+	background-color: #FBFBFF;
+	align-items: stretch;
+	justify-content: center
+}
+
+.Projects-container a {
+	text-decoration: none;
+	color: #0B4F6C;
+}
+
+.Projects-container a:visited {
+	text-decoration: none;
+	color: #0B4F6C;
+}
+
+.project-contents {
+	flex: 1;
+	border-right: solid 1px #0B4F6C;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	justify-content: center;
+}
+
+.project-contents:hover {
+	background-color: #F1F1F1;
+}
+
+.project-contents h1 {
+ justify-content: center; 
+  align-items: center;
+  font-family: 'Oswald';
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: .10em;
+  padding: 0px;
+ }
+
+.project-contents h2 {
+  justify-content: center; 
+  font-family: 'Oswald';
+  font-size: 14px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  list-style: none;
+  line-height: 1.5em;
+ }
+
+.github a:visited{
+	color: #149DBF;
+}
+.github a{
+	font-family: 'Source Code Pro';
+	border: 1px;
+	color: #149DBF;
+}
+
+.github a:hover{
+	font-weight: bold;
+	color: #149DBF;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+  .Projects-container {
+    flex-direction: column;
+  }
+  .project-contents {
+  	border-bottom: solid 1px #0B4F6C;
+  }
+}
